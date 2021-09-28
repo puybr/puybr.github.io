@@ -1,0 +1,295 @@
+$font-stack: Helvetica, sans-serif;
+
+$primary-color: tomato;
+$secondary-color: orange;
+$tertiary-color: #FFF;
+$primary-background-color: rgb(50, 50, 50);
+$secondary-background-color: rgb(35, 35, 35);
+$tertiary-background-color: rgb(210, 210, 210);
+
+
+//Media Queries
+//Large Screen - 993 to 1170 screen size
+@mixin lg-screen{
+  @media only screen and (max-width: 1170px) {
+      @content;
+  }
+}
+//Medium Screen - 768 to 992 screen size
+@mixin md-screen{
+  @media only screen and (max-width: 992px) {
+      @content;
+  }
+}
+//Medium Screen - 575 to 767 screen size
+@mixin sm-screen{
+  @media only screen and (max-width: 767px) {
+      @content;
+  }
+}
+//Medium Screen - below 575 screen size
+@mixin xs-screen{
+  @media only screen and (max-width: 575px) {
+      @content;
+  }
+}
+
+html,
+body {
+  margin: 0 auto;
+  font: 100% $font-stack;
+  text-align: center;
+  color: $tertiary-color;
+  -webkit-user-select: none; /* Webkit */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE 10 */
+  -o-user-select: none;
+  user-select: none;
+}
+
+// T y p o g r a p h y
+h1 {
+  font-size: 5rem;
+  @include lg-screen {
+    font-size: 5rem;
+  }
+
+  @include md-screen {
+      font-size: 4rem;
+  }
+
+  @include sm-screen {
+      font-size: 4rem;
+  }
+
+  @include xs-screen {
+      font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+// L I N K S
+a {
+  color: $tertiary-color;
+}
+a:hover {
+  color: $secondary-color;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid $tertiary-color;
+  border-radius: 1px;
+}
+
+.icon {
+  color: $secondary-color;
+}
+
+// I M A G E S
+img {
+  width: 50%;
+  @include lg-screen {
+    width: 50%;
+  }
+
+  @include md-screen {
+    width: 50%;
+  }
+
+  @include sm-screen {
+    width: 100%;
+  }
+
+  @include xs-screen {
+    width: 100%;
+  }
+}
+
+
+// H E A D E R
+// N A V B A R
+nav {
+  background-color: $secondary-background-color;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  top: 0; /* Stay on top */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  @include sm-screen {
+    display: none;
+  } 
+  @include xs-screen {
+    display: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    padding: 1rem 0;
+    display: inline-block;
+  }
+  li:hover {
+    background-color: $primary-background-color;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+    padding:  0 1rem;
+    left: 0;
+    right: 0;
+
+  }
+}
+
+#hamburger {
+  font-size: xx-large;
+  margin: .4rem 1rem;
+  position: fixed;
+  right: 0;
+  display: none;
+  z-index: 2;
+  @include sm-screen {
+    display: block;
+  }
+  @include xs-screen {
+    display: block;
+  } 
+  :hover{
+    color: $secondary-color;
+    cursor: pointer;
+  }
+}
+
+
+// H O M E
+.home {
+  max-height: 100%;
+  height: 100vh;
+  z-index: -1;
+  padding: 3rem 1rem;
+  background-color: $primary-background-color;
+  a {
+    font-size: 1.8rem;
+    padding: 0 .4rem;
+  }
+  .home-container {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0; 
+    right: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    button {
+      border: none;
+      color: $tertiary-color;
+      margin: 1rem;
+      background-color: $primary-color;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: $secondary-color;
+      cursor: pointer;
+    }
+  }
+  // typed.js
+  .text-animation {
+    color: $primary-color;
+  }  
+}
+
+
+// A B O U T
+.about {
+  padding: 2rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+  background-color: $secondary-background-color;
+}
+
+
+// S K I L L S
+.skills {
+  padding: 2rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+  list-style-type: none;
+  text-align: center;
+  background-color: $primary-color;
+  overflow: hidden;
+  p {
+    color: $secondary-background-color;
+  }
+
+  }
+  .skill {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 1rem
+  }
+  
+  .skill-icons {
+    font-size: 5rem;
+    color: $secondary-background-color; 
+}
+
+// P R O J E C T S
+.projects {
+  padding: 2rem;
+  margin: 0 auto;
+  list-style-type: none;
+  text-align: center;
+  background-color: $secondary-background-color;
+  overflow: hidden;
+  .project-icons {
+    font-size: 2rem;
+  }
+  .project-url {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 1rem;
+  
+  }
+  
+  .card {
+    padding: 2rem;
+    display: inline-block;
+    margin: 0 auto;
+
+  }
+  
+  .card:hover {
+    background-color: $primary-background-color;
+  }
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    color: $primary-color;
+  }
+
+}
+
+// F O O T E R
+footer {
+  background-color: $secondary-background-color;
+  padding: 2rem;
+}
