@@ -127,10 +127,9 @@ nav {
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   @include sm-screen {
     display: none;
-    height: 50%;
   } 
   @include xs-screen {
-    height: 50%;
+    display: none;
   }
   ul {
     list-style-type: none;
