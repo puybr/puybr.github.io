@@ -127,17 +127,31 @@ nav {
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   @include sm-screen {
     display: none;
+    height: 50%;
   } 
   @include xs-screen {
-    display: none;
+    height: 50%;
   }
   ul {
     list-style-type: none;
+    @include sm-screen {
+      padding: 2rem;
+    } 
+    @include xs-screen {
+      padding: 2rem;
+    }
   }
 
   li {
     padding: 1rem 0;
     display: inline-block;
+    @include sm-screen {
+      display: block;
+    } 
+    @include xs-screen {
+    display: block;
+  }
+    
   }
   li:hover {
     background-color: $primary-background-color;
@@ -145,10 +159,7 @@ nav {
 
   a {
     text-decoration: none;
-    display: block;
     padding:  0 1rem;
-    left: 0;
-    right: 0;
 
   }
 }
