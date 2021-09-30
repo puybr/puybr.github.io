@@ -90,7 +90,7 @@ let mySkills = [
     icon: `<i class="fas fa-server"></i>`,
   },
   {
-    type: 'SQL',
+    type: 'DATABASES',
     icon: `<i class="fas fa-database"></i>`,
   }
 ];//end of my skills
