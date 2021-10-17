@@ -2,7 +2,7 @@
 
 ![My Portfolio Site](./error.png)
 
-### Live Demo [here](https://ghost-goblin.github.io/personal-site/)
+### Live Demo [here](https://ghost-goblin.github.io/chloeurisohn/)
 
 ## 🛠️ Built with
 * HTML
