@@ -15,6 +15,12 @@ const typed = new Typed('.text-animation', {
 
 let myProjects = [
   {
+    title: 'Weather App',
+    demo: 'https://ghost-goblin.github.io/weather-app/',
+    code: 'https://github.com/ghost-goblin/weather-app/',
+    description: '☁️ Weather application using API calls',
+  },
+  {
     title: 'To-do List',
     demo: 'https://ghost-goblin.github.io/to-do-list/',
     code: 'https://github.com/ghost-goblin/to-do-list/',
