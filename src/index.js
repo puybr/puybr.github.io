@@ -84,12 +84,16 @@ let mySkills = [
     icon: `<i class='fab fa-js-square'></i>`,
   },
   {
+    type: 'PYTHON',
+    icon: `<i class="fa fa-code" aria-hidden="true"></i>`
+  },
+  {
     type: 'GIT',
     icon: `<i class="fab fa-git-alt"></i>`,
   },
   {
     type: 'BASH',
-    icon: `<i class="fas fa-code"></i>`,
+    icon: `<i class="fa fa-terminal" aria-hidden="true"></i>`,
   },
   {
     type: 'REST API',
@@ -98,6 +102,18 @@ let mySkills = [
   {
     type: 'DATABASES',
     icon: `<i class="fas fa-database"></i>`,
+  },
+  {
+    type: 'CLOUD',
+    icon: `<i class="fa fa-cloud" aria-hidden="true"></i>`
+  },
+  {
+    type: 'WINDOWS & LINUX',
+    icon: `<i class="fa fa-microchip" aria-hidden="true"></i>`
+  },
+  {
+    type: 'TCP/IP',
+    icon: `<i class="fa fa-wifi" aria-hidden="true"></i>`
   }
 ];//end of my skills
 
