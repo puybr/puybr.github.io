@@ -18,7 +18,7 @@ let myProjects = [
     title: 'The Cloud Resume Challenge',
     demo: 'https://www.chloeurisohn.com/',
     code: 'https://github.com/ghost-goblin/cloud-resume-challenge/',
-    description: '☁️ Resume hosted in S3, distributed by CloudFront with a backend hooked to Lambda Functions',
+    description: '☁️ AWS Resume with a database backend',
   },
   {
     title: 'Weather App',
