@@ -18,7 +18,7 @@ let myProjects = [
     title: 'The Cloud Resume Challenge',
     demo: 'https://www.chloeurisohn.com/',
     code: 'https://github.com/ghost-goblin/cloud-resume-challenge/',
-    description: '☁️ AWS Resume with a database backend',
+    description: '☁️ Severless resume with an AWS backend',
   },
   {
     title: 'Weather App',
