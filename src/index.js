@@ -15,10 +15,16 @@ const typed = new Typed('.text-animation', {
 
 let myProjects = [
   {
+    title: 'The Cloud Resume Challenge',
+    demo: 'https://www.chloeurisohn.com/',
+    code: 'https://github.com/ghost-goblin/cloud-resume-challenge/',
+    description: '☁️ Resume hosted in S3, distributed by CloudFront with a backend hooked to Lambda Functions',
+  },
+  {
     title: 'Weather App',
     demo: 'https://ghost-goblin.github.io/weather-app/',
     code: 'https://github.com/ghost-goblin/weather-app/',
-    description: '☁️ Weather application using API calls',
+    description: '☀️ Weather application using API calls',
   },
   {
     title: 'To-do List',
