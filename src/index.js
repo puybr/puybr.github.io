@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/js/brands'
 
 // Typing effect with typed.js
 const typed = new Typed('.text-animation', {
-    strings: ['coder.', 'graphic designer.', 'computer nerd.'],
+    strings: ['coder.', 'designer.', 'computer nerd.'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
