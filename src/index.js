@@ -15,6 +15,12 @@ const typed = new Typed('.text-animation', {
 
 let myProjects = [
   {
+    title: 'Mini Messageboard',
+    demo: 'https://messageboard.chloeurisohn.com/',
+    code: 'https://github.com/ghost-goblin/mini-messageboard',
+    description: '✉️ Mini-messageboard with Nodejs, Express and MongoDB',
+  },
+  {
     title: 'The Cloud Resume Challenge',
     demo: 'https://www.chloeurisohn.com/',
     code: 'https://github.com/ghost-goblin/cloud-resume-challenge/',
@@ -62,18 +68,6 @@ let myProjects = [
     code: 'https://github.com/ghost-goblin/calculator/',
     description: '🧮 Calculator App with JavaScript',
   },
-  {
-    title: 'Pixelator',
-    demo: 'https://ghost-goblin.github.io/etch-a-sketch/',
-    code: 'https://github.com/ghost-goblin/etch-a-sketch/',
-    description: '✏️ Etch-A-Sketch made with HTML, CSS & JavaScript',
-  },
-  {
-    title: 'Rock Paper Scissors',
-    demo: 'https://ghost-goblin.github.io/rock-paper-scissors/',
-    code: 'https://github.com/ghost-goblin/rock-paper-scissors/',
-    description: '✋ Play Rock, Paper, Scissors with JavaScript',
-  }
 ];//end of my projects
 
 let mySkills = [
