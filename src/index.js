@@ -6,26 +6,14 @@ import '@fortawesome/fontawesome-free/js/brands'
 
 // Typing effect with typed.js
 const typed = new Typed('.text-animation', {
-    strings: ['coder.', 'designer.', 'computer nerd.'],
+    strings: ['coder.', 'designer.', 'developer.'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
   });
-
+  
 
 let myProjects = [
-  {
-    title: 'Mini Messageboard',
-    demo: 'https://messageboard.chloeurisohn.com/',
-    code: 'https://github.com/ghost-goblin/mini-messageboard',
-    description: '✉️ Mini-messageboard with Nodejs, Express and MongoDB',
-  },
-  {
-    title: 'The Cloud Resume Challenge',
-    demo: 'https://www.chloeurisohn.com/',
-    code: 'https://github.com/ghost-goblin/cloud-resume-challenge/',
-    description: '☁️ Severless resume with an AWS backend',
-  },
   {
     title: 'Weather App',
     demo: 'https://ghost-goblin.github.io/weather-app/',
