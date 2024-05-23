@@ -9,7 +9,7 @@
 * SCSS _[(Preprocessor)](https://sass-lang.com/)_
 * JavaScript
 * [Typed.js](https://www.javascripting.com/view/typed-js)
-- _Bundled with Webpack_
+* _Bundled with Webpack_
 
 ## 💡 Features
 * Mobile Responsive
@@ -17,7 +17,7 @@
 * Dynamic scrolling
 
 ## 🚀 CI/CD
-* [CICD workflow](https://github.com/ghost-goblin/chloeurisohn/blob/main/.github/workflows/cicd.yml) using GitHub Actions
+* [CICD workflow](https://github.com/ghost-goblin/chloeurisohn/blob/main/.github/workflows/cicd.yml) with GitHub Actions
 
 * * *
 
