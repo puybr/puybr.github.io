@@ -1,6 +1,7 @@
 # 👨‍💻 Personal Portfolio
 
 ![My Portfolio Site](./error.png)
+<img src="./error.png" alt="my-portfolio-site" width="200"/>
 
 ### Live Demo [here](https://ghost-goblin.github.io/chloeurisohn/)
 
