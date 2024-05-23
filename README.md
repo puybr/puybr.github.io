@@ -17,7 +17,7 @@
 * Dynamic scrolling
 
 ## 🚀 CI/CD
-* [CICD workflow](https://github.com/ghost-goblin/chloeurisohn/edit/main/.github/workflows/cicd.yml)
+* [CICD workflow](https://github.com/ghost-goblin/chloeurisohn/blob/main/.github/workflows/cicd.yml) using GitHub Actions
 
 * * *
 
