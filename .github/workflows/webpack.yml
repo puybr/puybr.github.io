@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: NodeJS with Webpack Pipeline
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [20.x]
 
     steps:
     - uses: actions/checkout@v4
@@ -26,3 +26,13 @@ jobs:
       run: |
         npm install
         npx webpack
+
+    - name: Push dist subtree
+      run: |
+        git init
+        git add dist
+        git config --local user.email
+        git config --local user.name
+        git commit -m 'deploy'
+        git subtree push --prefix dist origin gh-pages
+      
