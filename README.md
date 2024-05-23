@@ -16,6 +16,9 @@
 * Animated typing effect with `Typed.js`
 * Dynamic scrolling
 
+## 🚀 CI/CD
+* [CICD workflow](https://github.com/ghost-goblin/chloeurisohn/edit/main/.github/workflows/cicd.yml)
+
 * * *
 
 * A useful guide on [how to setup SASS in your project](https://dev.to/chrissiemhrk/how-to-setup-sass-in-your-project-2bo1)
