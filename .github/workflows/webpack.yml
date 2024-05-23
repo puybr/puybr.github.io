@@ -27,10 +27,13 @@ jobs:
         npm install
         npx webpack
 
-    - name: Push dist subtree
-      run: |
-        git add dist
-        git config --local user.email "56723522+ghost-goblin@users.noreply.github.com"
-        git config --local user.name "ghost-goblin"
-        git commit -m 'deploy'
-        git subtree push --prefix dist origin gh-pages
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
