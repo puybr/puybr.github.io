@@ -18,6 +18,9 @@
 
 ## 🚀 CI/CD
 * [CICD workflow](https://github.com/ghost-goblin/chloeurisohn/blob/main/.github/workflows/cicd.yml) with GitHub Actions
+* [Additional steps to take when deploying a subfolder to Github Pages](https://gist.github.com/cobyism/4730490):
+1. `git add dist && git commit -m "Initial dist subtree commit"`
+2. `git subtree push --prefix dist origin gh-pages`
 
 * * *
 
@@ -28,12 +31,6 @@
 
 - - -
 
-* [Additional steps to take when deploying a subfolder to Github Pages](https://gist.github.com/cobyism/4730490):
-1. `git add dist && git commit -m "Initial dist subtree commit"`
-2. `git subtree push --prefix dist origin gh-pages`
-
 > Check out: [Getting Hired](https://www.theodinproject.com/paths/full-stack-javascript/courses/getting-hired/lessons/building-your-personal-website): building your personal website.
-
-- - -
 
 Made with **Helvetica** 🖤 | ✏️ Illustrations by: _[Wham!](https://www.ls.graphics/illustrations/wham)_
