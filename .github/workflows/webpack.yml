@@ -29,10 +29,6 @@ jobs:
 
     - name: Push dist subtree
       run: |
-        git init
         git add dist
-        git config --local user.email
-        git config --local user.name
         git commit -m 'deploy'
         git subtree push --prefix dist origin gh-pages
-      
