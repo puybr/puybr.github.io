@@ -26,8 +26,8 @@
 
 > Run `npm run sass` in the terminal of the `.\dist\scss\` directory
 
-- - -
-
 > Check out: [Getting Hired](https://www.theodinproject.com/paths/full-stack-javascript/courses/getting-hired/lessons/building-your-personal-website): building your personal website.
+
+- - -
 
 Made with **Helvetica** 🖤 | ✏️ Illustrations by: _[Wham!](https://www.ls.graphics/illustrations/wham)_
