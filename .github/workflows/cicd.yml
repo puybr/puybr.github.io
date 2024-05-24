@@ -39,9 +39,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Update packages
+      run: |
+        npm ci
+        npm update
+    
     - name: Build
       run: |
-        npm install
         npx webpack
         
     - name: Upload artifact
