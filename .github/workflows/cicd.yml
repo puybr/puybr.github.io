@@ -42,6 +42,7 @@ jobs:
     - name: Update packages
       run: |
         npm ci
+        npm config set fund false
         npm update
     
     - name: Build
