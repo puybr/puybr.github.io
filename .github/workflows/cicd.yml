@@ -41,7 +41,6 @@ jobs:
 
     - name: Update packages
       run: |
-        npx npm-check-updates -u
         npm ci
         npm config set fund false --save
         npm update --save
