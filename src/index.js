@@ -7,7 +7,7 @@ import './style.scss';
 
 // Typing effect with typed.js
 const typed = new Typed('.text-animation', {
-    strings: ['coder.', 'designer.', 'developer.'],
+    strings: ['coder.', 'sysadmin.', 'developer.'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
@@ -154,7 +154,6 @@ hamburgerIcon.addEventListener('click', (e) => {
       section.style.display = 'block';
     }
   });
-
 });
 
 
@@ -203,6 +202,16 @@ projectShortcut.addEventListener('click', (e) => {
 //   console.log(window.pageYOffset);
 // });
 
+// T O G G L E R                                          
+let toggler = document.getElementsByClassName("caret");
+let i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
 
 // F O O T E R
 document.querySelector('footer').innerHTML = `
