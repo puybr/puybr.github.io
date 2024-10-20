@@ -31,4 +31,4 @@
 
 - - -
 
-Made with **Helvetica** 🖤 | ✏️ Illustrations by: _[Wham!](https://www.ls.graphics/illustrations/wham)_
+Made with **Helvetica** 🖤 | ✏️ Built with: _[webpack!](https://webpack.js.org/)_
