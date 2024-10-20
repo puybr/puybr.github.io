@@ -167,13 +167,8 @@ homeButton.addEventListener('click', (e) => {
 });
 
 const aboutButton = document.querySelector('#about');
-const aboutShortcut = document.querySelector('#aboutShortcut');
 const aboutSection = document.querySelector('.about');
 aboutButton.addEventListener('click', (e) => {
-  e.preventDefault();
-  aboutSection.scrollIntoView({behavior: "smooth"});
-});
-aboutShortcut.addEventListener('click', (e) => {
   e.preventDefault();
   aboutSection.scrollIntoView({behavior: "smooth"});
 });
@@ -186,13 +181,8 @@ skillsButton.addEventListener('click', (e) => {
 });
 
 const projectsButton = document.querySelector('#projects');
-const projectShortcut = document.querySelector('#projectShortcut');
 const projectsSection = document.querySelector('.projects');
 projectsButton.addEventListener('click', (e) => {
-  e.preventDefault();
-  projectsSection.scrollIntoView({behavior: "smooth"});
-});
-projectShortcut.addEventListener('click', (e) => {
   e.preventDefault();
   projectsSection.scrollIntoView({behavior: "smooth"});
 });
@@ -218,4 +208,7 @@ document.querySelector('footer').innerHTML = `
                                             <hr>
                                             © ${new Date().getFullYear()}
                                             <i class="fas fa-arrow-circle-up"></i>
+                                            <a href="https://www.linkedin.com/in/chloeurisohn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                            <a href="https://github.com/puybr" target="_blank"><i class="fab fa-github"></i></a>
+                                            <a href="mailto:chloeurisohn@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
                                             `;
