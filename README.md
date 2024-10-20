@@ -1,6 +1,6 @@
 # 👨‍💻 Personal Portfolio
 
-<img src="./error.png" alt="my-portfolio-site" width="400"/>
+<img src="./dist/images/technology.png" alt="my-portfolio-site" width="400"/>
 
 ### Live Demo [here](https://ghost-goblin.github.io/chloeurisohn/)
 
