@@ -1,7 +1,5 @@
 # 👨‍💻 Personal Portfolio
 
-<img src="./dist/images/technology.png" alt="my-portfolio-site" width="300"/>
-
 ### Live Demo [here](https://puybr.github.io/chloeurisohn/)
 
 ## 🛠️ Built with

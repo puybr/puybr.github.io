@@ -42,8 +42,6 @@ jobs:
     - name: Install packages
       run: |
         npm ci
-        npm config set fund false --save
-        npm update --save
     
     - name: Build
       run: |

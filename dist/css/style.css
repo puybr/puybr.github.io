@@ -38,15 +38,13 @@ a {
   color: #FFF; }
 
 a:hover {
-  color: orange; }
+  color: balck; }
 
 hr {
   border: 0;
   border-top: 2px solid #FFF;
   border-radius: 1px; }
 
-.icon {
-  color: orange; }
 
 img {
   width: 50%; }
@@ -64,7 +62,6 @@ img {
       width: 100%; } }
 
 nav {
-  background-color: #232323;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -97,8 +94,6 @@ nav {
     @media only screen and (max-width: 575px) {
       nav li {
         display: block; } }
-  nav li:hover {
-    background-color: #323232; }
   nav a {
     text-decoration: none;
     padding: 0 1rem; }
@@ -117,15 +112,13 @@ nav {
     #hamburger {
       display: block; } }
   #hamburger :hover {
-    color: orange;
     cursor: pointer; }
 
 .home {
   max-height: 100%;
   height: 100vh;
   z-index: -1;
-  padding: 3rem 1rem;
-  background-color: #323232; }
+  padding: 3rem 1rem; }
   .home a {
     font-size: 1.8rem;
     padding: 0 .4rem; }
@@ -141,24 +134,19 @@ nav {
       border: none;
       color: #FFF;
       margin: 1rem;
-      background-color: tomato;
       padding: 15px 32px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
       font-size: 1rem; }
     .home .home-container button:hover {
-      background-color: orange;
       cursor: pointer; }
-  .home .text-animation {
-    color: tomato; }
 
 .about {
   padding: 2rem;
   margin: 0 auto;
   position: relative;
-  z-index: -1;
-  background-color: #232323; }
+  z-index: -1; }
 
 .skills {
   padding: 2rem;
@@ -169,24 +157,19 @@ nav {
   text-align: center;
   background-color: tomato;
   overflow: hidden; }
-  .skills p {
-    color: #232323; }
-
 .skill {
   display: inline-block;
   margin: 0 auto;
   padding: 0 1rem; }
 
 .skill-icons {
-  font-size: 5rem;
-  color: #232323; }
+  font-size: 5rem; }
 
 .projects {
   padding: 2rem;
   margin: 0 auto;
   list-style-type: none;
   text-align: center;
-  background-color: #232323;
   overflow: hidden; }
   .projects .project-icons {
     font-size: 2rem; }
@@ -198,13 +181,8 @@ nav {
     padding: 2rem;
     display: inline-block;
     margin: 0 auto; }
-  .projects .card:hover {
-    background-color: #323232; }
   .projects a {
     text-decoration: none; }
-  .projects h3 {
-    color: tomato; }
 
 footer {
-  background-color: #232323;
   padding: 2rem; }
