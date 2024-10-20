@@ -3,7 +3,6 @@ body {
   margin: 0 auto;
   font: 100% Helvetica, sans-serif;
   text-align: center;
-  color: #FFF;
   -webkit-user-select: none;
   /* Webkit */
   -moz-user-select: none;
@@ -14,7 +13,7 @@ body {
   user-select: none; }
 
 h1 {
-  font-size: 5rem; }
+  font-size: 3rem; }
   @media only screen and (max-width: 1170px) {
     h1 {
       font-size: 5rem; } }

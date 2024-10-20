@@ -45,9 +45,9 @@ body {
 
 // T y p o g r a p h y
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   @include lg-screen {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   @include md-screen {
@@ -64,7 +64,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h3 {
