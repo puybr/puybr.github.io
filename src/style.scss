@@ -1,7 +1,7 @@
 $font-stack: Helvetica, sans-serif;
 
-$primary-color: black;
-$secondary-color: white;
+$primary-color: white;
+$secondary-color: black;
 
 
 //Media Queries
@@ -35,9 +35,9 @@ body {
   margin: 0 auto;
   font: 100% $font-stack;
   color: $primary-color;
+  background-color: $secondary-color;
   padding:1rem;
   text-align: left;
-  color: $primary-color;
   -webkit-user-select: none; /* Webkit */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE 10 */
@@ -90,7 +90,6 @@ hr {
 
 // N A V B A R
 nav {
-  background-color: $secondary-color;
   display: flex;
   justify-content: left;
   width: 100%;
@@ -147,7 +146,6 @@ nav {
 /* Create the caret/arrow with a unicode, and style it */
 .caret::before {
   content: "\25B6";
-  color: black;
   display: inline-block;
   margin-right: 6px;
 }
