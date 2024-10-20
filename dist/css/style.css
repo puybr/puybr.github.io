@@ -16,13 +16,13 @@ h1 {
   font-size: 3rem; }
   @media only screen and (max-width: 1170px) {
     h1 {
-      font-size: 5rem; } }
+      font-size: 3rem; } }
   @media only screen and (max-width: 992px) {
     h1 {
-      font-size: 4rem; } }
+      font-size: 3rem; } }
   @media only screen and (max-width: 767px) {
     h1 {
-      font-size: 4rem; } }
+      font-size: 3rem; } }
   @media only screen and (max-width: 575px) {
     h1 {
       font-size: 3rem; } }
@@ -131,13 +131,11 @@ nav {
     transform: translateY(-50%); }
     .home .home-container button {
       border: none;
-      color: #FFF;
       margin: 1rem;
       padding: 15px 32px;
       text-align: center;
       text-decoration: none;
-      display: inline-block;
-      font-size: 1rem; }
+      display: inline-block; }
     .home .home-container button:hover {
       cursor: pointer; }
 
@@ -161,8 +159,6 @@ nav {
   margin: 0 auto;
   padding: 0 1rem; }
 
-.skill-icons {
-  font-size: 5rem; }
 
 .projects {
   padding: 2rem;

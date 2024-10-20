@@ -51,7 +51,7 @@ h1 {
   }
 
   @include md-screen {
-      font-size: 4rem;
+      font-size: 3rem;
   }
 
   @include sm-screen {
@@ -250,7 +250,7 @@ nav {
   }
   
   .skill-icons {
-    font-size: 5rem;
+    font-size: 2rem;
     color: $primary-color; 
 }
 

@@ -134,7 +134,7 @@ mySkills.forEach((skill) => {
   const s = `
                 <div class="skill">
                 <div class="skill-icons">${skill.icon}</div>
-                <p><b>${skill.type}</b></p>
+                <p>${skill.type}</p>
                 </div>
             `;
   skillsContainer.insertAdjacentHTML('beforeend', s); 
