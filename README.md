@@ -5,7 +5,7 @@
 ## 🛠️ Built with
 * HTML
 * SCSS _[(Preprocessor)](https://sass-lang.com/)_
-* JavaScript
+* JavaScript ES6
 
 ## 💡 Features
 * Mobile Responsive
