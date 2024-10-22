@@ -6,12 +6,10 @@
 * HTML
 * SCSS _[(Preprocessor)](https://sass-lang.com/)_
 * JavaScript
-* [Typed.js](https://www.javascripting.com/view/typed-js)
-* _Bundled with Webpack_
 
 ## 💡 Features
 * Mobile Responsive
-* Animated typing effect with `Typed.js`
+* Animated typing effect with [Typed.js](https://www.javascripting.com/view/typed-js)
 * Dynamic scrolling
 
 ## 🚀 CI/CD
@@ -31,4 +29,4 @@
 
 - - -
 
-Made with **Helvetica** 🖤 | ✏️ Built with: _[webpack!](https://webpack.js.org/)_
+Made with **Helvetica** 🖤 | ✏️ Bundled with _[webpack!](https://webpack.js.org/)_
