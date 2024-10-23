@@ -1,4 +1,6 @@
-$font-stack: Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+$font-stack: 'JetBrains', monospace;
 
 $primary-color: black;
 $secondary-color: white;
@@ -34,6 +36,7 @@ html,
 body {
   margin: 0 auto;
   font: 100% $font-stack;
+  font-family: $font-stack;
   color: $primary-color;
   background-color: $secondary-color;
   padding:1rem;
@@ -47,7 +50,8 @@ body {
 
 // T y p o g r a p h y
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
   @include lg-screen {
     font-size: 2rem;
   }
@@ -66,10 +70,6 @@ h1 {
 }
 
 
-h1 {
-  font-size: 2rem;
-}
-
 // L I N K S
 a {
   color: $primary-color;
@@ -80,8 +80,8 @@ a:hover {
 
 hr {
   border: 0;
-  border-top: 2px solid $primary-color;
-  border-radius: 1px;
+  border-top: 1.5px solid $primary-color;
+  border-radius: 1.5px;
 }
 
 .icon {
@@ -126,41 +126,5 @@ nav {
   a {
     text-decoration: none;
     padding:  0 1rem;
-
   }
-}
-
-
-/* Remove margins and padding from the parent ul */
-#myUL {
-  margin: 0;
-  padding: 0;
-}
-
-/* Style the caret/arrow */
-.caret {
-  cursor: pointer;
-  user-select: none; /* Prevent text selection */
-}
-
-/* Create the caret/arrow with a unicode, and style it */
-.caret::before {
-  content: "\25B6";
-  display: inline-block;
-  margin-right: 6px;
-}
-
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-.caret-down::before {
-  transform: rotate(90deg);
-}
-
-/* Hide the nested list */
-.nested {
-  display: none;
-}
-
-/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
-.active {
-  display: block;
 }

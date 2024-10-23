@@ -2,7 +2,6 @@ import Typed from 'typed.js';
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';
-import '@fortawesome/fontawesome-free/js/brands';
 import './style.scss';
 
 // Typing effect with typed.js
@@ -16,47 +15,17 @@ const typed = new Typed('.text-animation', {
 
 let myProjects = [
   {
-    title: 'Weather App',
+    title: 'Project 1',
     demo: 'https://puybr.github.io/weather-app/',
     code: 'https://github.com/puybr/weather-app/',
-    description: '☀️ Weather application using API calls',
+    description: 'Weather application using API calls',
   },
   {
-    title: 'To-do List',
+    title: 'Project 2',
     demo: 'https://puybr.github.io/to-do-list/',
     code: 'https://github.com/puybr/to-do-list/',
-    description: '✔️ To-Do List created with JavaScript ES6 Modules',
-  },
-  {
-    title: 'Pizza Hex',
-    demo: 'https://puybr.github.io/pizza-hex/',
-    code: 'https://github.com/puybr/pizza-hex/',
-    description: '🧙‍♀️ 16-bit Arcade Game made with PhaserJS',
-  },
-  {
-    title: 'My Library',
-    demo: 'https://puybr.github.io/library/',
-    code: 'https://github.com/puybr/library/',
-    description: '📕 Library Project using JavaScript Objects',
-  },
-  {
-    title: 'Restaurant Page',
-    demo: 'https://puybr.github.io/restaurant-page/',
-    code: 'https://github.com/puybr/restaurant-page/',
-    description: '🍕 Restaurant site with dynamic tabbed browsing functionality',
-  },
-  {
-    title: 'Tic Tac Toe',
-    demo: 'https://puybr.github.io/tic-tac-toe/',
-    code: 'https://github.com/puybr/tic-tac-toe/',
-    description: '🕹️ A Tic Tac Toe game you can play in your browser',
-  },
-  {
-    title: 'Calculator',
-    demo: 'https://puybr.github.io/calculator/',
-    code: 'https://github.com/puybr/calculator/',
-    description: '🧮 Calculator App with JavaScript',
-  },
+    description: 'To-Do List created with JavaScript ES6 Modules',
+  }
 ];//end of my projects
 
 let mySkills = [
@@ -192,16 +161,6 @@ projectsButton.addEventListener('click', (e) => {
 //   console.log(window.pageYOffset);
 // });
 
-// T O G G L E R                                          
-let toggler = document.getElementsByClassName("caret");
-let i;
-
-for (i = 0; i < toggler.length; i++) {
-  toggler[i].addEventListener("click", function() {
-    this.parentElement.querySelector(".nested").classList.toggle("active");
-    this.classList.toggle("caret-down");
-  });
-}
 
 // F O O T E R
 document.querySelector('footer').innerHTML = `
