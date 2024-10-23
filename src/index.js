@@ -18,13 +18,13 @@ let myProjects = [
     title: 'Project 1',
     demo: 'https://github.com/puybr/',
     code: 'https://github.com/puybr/',
-    description: 'Weather application using API calls',
+    description: 'Project 1 description ...',
   },
   {
     title: 'Project 2',
     demo: 'https://github.com/puybr/',
     code: 'https://github.com/puybr/',
-    description: 'To-Do List created with JavaScript ES6 Modules',
+    description: 'Project 2 description ...',
   }
 ];//end of my projects
 
@@ -81,7 +81,7 @@ const projectContainer = document.querySelector('.project-container');
 myProjects.forEach((project) => {
   const p = `
           <div class="card">
-            <h3>${project.title}<hr></h3>
+            <p>${project.title}<hr></p>
             <span>
               <div class="project-url">
                 <a href=${project.demo} target="_blank"><div class="project-icons"><i class="fas fa-laptop-code"></i></div>Live Demo</a>
@@ -166,7 +166,6 @@ projectsButton.addEventListener('click', (e) => {
 document.querySelector('footer').innerHTML = `
                                             <hr>
                                             © ${new Date().getFullYear()}
-                                            <i class="fas fa-arrow-circle-up"></i>
                                             <div class="footer-icons">
                                             <a href="https://www.linkedin.com/in/chloeurisohn" target="_blank"><i class="fab fa-linkedin"></i></a>
                                             <a href="https://github.com/puybr" target="_blank"><i class="fab fa-github"></i></a>
