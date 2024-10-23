@@ -29,4 +29,4 @@
 
 - - -
 
-Made with **Helvetica** 🖤 | 🧣 Bundled with _[webpack!](https://webpack.js.org/)_
+Made with **JetBrains** 🖤 | 🧣 Bundled with _[webpack!](https://webpack.js.org/)_
