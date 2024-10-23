@@ -167,7 +167,9 @@ document.querySelector('footer').innerHTML = `
                                             <hr>
                                             © ${new Date().getFullYear()}
                                             <i class="fas fa-arrow-circle-up"></i>
+                                            <div class="footer-icons">
                                             <a href="https://www.linkedin.com/in/chloeurisohn" target="_blank"><i class="fab fa-linkedin"></i></a>
                                             <a href="https://github.com/puybr" target="_blank"><i class="fab fa-github"></i></a>
                                             <a href="mailto:chloeurisohn@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                                            </div>
                                             `;
