@@ -6,7 +6,7 @@ import './style.scss';
 
 // Typing effect with typed.js
 const typed = new Typed('.text-animation', {
-    strings: ['coder.', 'sysadmin.', 'developer.'],
+    strings: ['{ coder }.', '{ sysadmin }.', '{ developer }.'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
@@ -16,14 +16,14 @@ const typed = new Typed('.text-animation', {
 let myProjects = [
   {
     title: 'Project 1',
-    demo: 'https://puybr.github.io/weather-app/',
-    code: 'https://github.com/puybr/weather-app/',
+    demo: 'https://github.com/puybr/',
+    code: 'https://github.com/puybr/',
     description: 'Weather application using API calls',
   },
   {
     title: 'Project 2',
-    demo: 'https://puybr.github.io/to-do-list/',
-    code: 'https://github.com/puybr/to-do-list/',
+    demo: 'https://github.com/puybr/',
+    code: 'https://github.com/puybr/',
     description: 'To-Do List created with JavaScript ES6 Modules',
   }
 ];//end of my projects
