@@ -13,7 +13,7 @@
 * Dynamic scrolling
 
 ## 🚀 CI/CD
-* [CICD workflow](https://github.com/ghost-goblin/chloeurisohn/blob/main/.github/workflows/cicd.yml) with GitHub Actions
+* [CICD workflow](/.github/workflows/cicd.yml) with GitHub Actions
 
 * [Additional steps to take when deploying a subfolder to Github Pages](https://gist.github.com/cobyism/4730490)
 1. `git add dist && git commit -m "Initial dist subtree commit"`
