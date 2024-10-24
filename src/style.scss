@@ -128,6 +128,26 @@ nav {
   }
 }
 
-.skill-icons, .footer-icons, .project-icons {
+.skill-icons, .project-icons {
     font-size: 2rem;
+}
+
+.skill, .card, .project-url {
+  padding: 1rem;
+}
+
+$grid-width: 100rem; // 1000px
+$gutter-vertical: 4rem; //40px
+$gutter-horizontal: 10rem; // 40px
+
+.skills-container, .project-container, .project {
+  max-width: $grid-width;
+  margin: 0 auto;
+  display: flex; 
+  flex-wrap: wrap;
+
+  [class^="col-"] {
+      float: left;
+      padding: 1rem;
+  }
 }

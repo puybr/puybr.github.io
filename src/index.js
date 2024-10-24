@@ -82,15 +82,15 @@ myProjects.forEach((project) => {
   const p = `
           <div class="card">
             <p>${project.title}<hr></p>
-            <span>
+            <span class="project">
               <div class="project-url">
                 <a href=${project.demo} target="_blank"><div class="project-icons"><i class="fas fa-laptop-code"></i></div>Live Demo</a>
               </div>
               <div class="project-url">
                 <a href=${project.code} target="_blank"><div class="project-icons"><i class="fas fa-file-code"></i></div>Code</a>
               </div>
-              <p>${project.description}</p>
             </span>
+            <p>${project.description}</p>
           </div>
           `;
           projectContainer.insertAdjacentHTML('beforeend', p);
