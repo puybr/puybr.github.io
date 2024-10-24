@@ -145,8 +145,8 @@ $gutter-horizontal: 10rem; // 40px
   margin: 0 auto;
   display: flex; 
   flex-wrap: wrap;
-
-  [class^="col-"] {
+  
+  [class^="skills"] {
       float: left;
       padding: 1rem;
   }
