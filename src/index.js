@@ -6,7 +6,7 @@ import './style.scss';
 
 // Typing effect with typed.js
 const typed = new Typed('.text-animation', {
-    strings: ['{ coder }.', '{ sysadmin }.', '{ developer }.'],
+    strings: ['{ coder }.', '{ developer }.', '{ designer }.'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
