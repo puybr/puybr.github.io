@@ -6,7 +6,7 @@ import './style.scss';
 
 // Typing effect with typed.js
 const typed = new Typed('.text-animation', {
-    strings: ['{ coder }.', '{ developer }.', '{ designer }.'],
+    strings: ['{ coder }', '{ developer }', '{ designer }'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
@@ -51,19 +51,19 @@ myProjects.forEach((project) => {
 
 
 // 🍔 Hamburger Icon
-const hamburgerIcon = document.querySelector('#hamburger');
-hamburgerIcon.addEventListener('click', (e) => {
-  e.preventDefault();
-  document.querySelector('nav').style.display = 'flex';
-  document.querySelectorAll('.sections').forEach((section) => {
-    if (section.style.display === 'block') {
-      section.style.display = 'none';
-      document.querySelector('nav').style.display = 'none';
-    } else {
-      section.style.display = 'block';
-    }
-  });
-});
+// const hamburgerIcon = document.querySelector('#hamburger');
+// hamburgerIcon.addEventListener('click', (e) => {
+//   e.preventDefault();
+//   document.querySelector('nav').style.display = 'flex';
+//   document.querySelectorAll('.sections').forEach((section) => {
+//     if (section.style.display === 'block') {
+//       section.style.display = 'none';
+//       document.querySelector('nav').style.display = 'none';
+//     } else {
+//       section.style.display = 'block';
+//     }
+//   });
+// });
 
 
 
