@@ -28,53 +28,6 @@ let myProjects = [
   }
 ];//end of my projects
 
-let mySkills = [
-  {
-    type: 'HTML',
-    icon: `<i class='fab fa-html5'></i>`,
-  },
-  {
-    type: 'CSS',
-    icon: `<i class='fab fa-css3-alt'></i>`,
-  },
-  {
-    type: 'JAVASCRIPT',
-    icon: `<i class='fab fa-js-square'></i>`,
-  },
-  {
-    type: 'PYTHON',
-    icon: `<i class="fa fa-code" aria-hidden="true"></i>`
-  },
-  {
-    type: 'GIT',
-    icon: `<i class="fab fa-git-alt"></i>`,
-  },
-  {
-    type: 'BASH',
-    icon: `<i class="fa fa-terminal" aria-hidden="true"></i>`,
-  },
-  {
-    type: 'REST API',
-    icon: `<i class="fas fa-server"></i>`,
-  },
-  {
-    type: 'DATABASES',
-    icon: `<i class="fas fa-database"></i>`,
-  },
-  {
-    type: 'CLOUD',
-    icon: `<i class="fa fa-cloud" aria-hidden="true"></i>`
-  },
-  {
-    type: 'WINDOWS & LINUX',
-    icon: `<i class="fa fa-microchip" aria-hidden="true"></i>`
-  },
-  {
-    type: 'TCP/IP',
-    icon: `<i class="fa fa-wifi" aria-hidden="true"></i>`
-  }
-];//end of my skills
-
 
 //render my projects
 const projectContainer = document.querySelector('.project-container');
@@ -94,19 +47,6 @@ myProjects.forEach((project) => {
           </div>
           `;
           projectContainer.insertAdjacentHTML('beforeend', p);
-});
-
-
-//render skills
-const skillsContainer = document.querySelector('.skills-container');
-mySkills.forEach((skill) => {
-  const s = `
-                <div class="skill">
-                <div class="skill-icons">${skill.icon}</div>
-                <p>${skill.type}</p>
-                </div>
-            `;
-  skillsContainer.insertAdjacentHTML('beforeend', s); 
 });
 
 
