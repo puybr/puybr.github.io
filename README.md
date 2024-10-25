@@ -1,6 +1,6 @@
 # 👨‍💻 Personal Portfolio
 
-### Live Demo [here](https://puybr.github.io/chloeurisohn/)
+### Live Demo [here](https://puybr.github.io/dev/)
 
 ## 🛠️ Built with
 * HTML
