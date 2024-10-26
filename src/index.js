@@ -15,13 +15,13 @@ const typed = new Typed('.text-animation', {
 
 let myProjects = [
   {
-    title: 'Project 1',
+    title: 'PROJECT_01',
     demo: 'https://github.com/puybr/',
     code: 'https://github.com/puybr/',
     description: 'Project 1 description ...',
   },
   {
-    title: 'Project 2',
+    title: 'PROJECT_02',
     demo: 'https://github.com/puybr/',
     code: 'https://github.com/puybr/',
     description: 'Project 2 description ...',
@@ -34,7 +34,7 @@ const projectContainer = document.querySelector('.project-container');
 myProjects.forEach((project) => {
   const p = `
           <div class="card">
-            <p>${project.title}<hr></p>
+            <h3>${project.title}<hr></h3>
             <span class="project">
               <div class="project-url">
                 <a href=${project.demo} target="_blank"><div class="project-icons"><i class="fas fa-laptop-code"></i></div>Live Demo</a>
