@@ -25,4 +25,4 @@
 
 - - -
 
-Made with **JetBrains** 🖤 | 🧣 Bundled with _[webpack!](https://webpack.js.org/)_
+🧣 Bundled with _[webpack!](https://webpack.js.org/)_

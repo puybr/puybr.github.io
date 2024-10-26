@@ -68,12 +68,12 @@ myProjects.forEach((project) => {
 
 
 /* Scrolling Functionality */
-const homeButton = document.querySelector('#home');
-const homeSection = document.querySelector('.home');
-homeButton.addEventListener('click', (e) => {
-  e.preventDefault();
-  homeSection.scrollIntoView({behavior: "smooth"});
-});
+// const homeButton = document.querySelector('#home');
+// const homeSection = document.querySelector('.home');
+// homeButton.addEventListener('click', (e) => {
+//   e.preventDefault();
+//   homeSection.scrollIntoView({behavior: "smooth"});
+// });
 
 const aboutButton = document.querySelector('#about');
 const aboutSection = document.querySelector('.about');
@@ -105,10 +105,12 @@ projectsButton.addEventListener('click', (e) => {
 // F O O T E R
 document.querySelector('footer').innerHTML = `
                                             <hr>
+                                            <section>
                                             © ${new Date().getFullYear()}
                                             <div class="footer-icons">
                                             <a href="https://www.linkedin.com/in/chloeurisohn" target="_blank"><i class="fab fa-linkedin"></i></a>
                                             <a href="https://github.com/puybr" target="_blank"><i class="fab fa-github"></i></a>
                                             <a href="mailto:chloeurisohn@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
                                             </div>
+                                            </section>
                                             `;
