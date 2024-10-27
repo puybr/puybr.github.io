@@ -34,7 +34,7 @@ const projectContainer = document.querySelector('.project-container');
 myProjects.forEach((project) => {
   const p = `
           <div class="card">
-            <h3>${project.title}<hr></h3>
+            <h3>${project.title}</h3>
             <span class="project">
               <div class="project-url">
                 <a href=${project.demo} target="_blank"><div class="project-icons"><i class="fas fa-laptop-code"></i></div>Live Demo</a>
@@ -104,7 +104,6 @@ projectsButton.addEventListener('click', (e) => {
 
 // F O O T E R
 document.querySelector('footer').innerHTML = `
-                                            <hr>
                                             <section>
                                             © ${new Date().getFullYear()}
                                             <div class="footer-icons">
