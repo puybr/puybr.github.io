@@ -34,7 +34,7 @@ const projectContainer = document.querySelector('.project-container');
 myProjects.forEach((project) => {
   const p = `
           <div class="card">
-            <h3>${project.title}</h3>
+            <p><i class="fa fa-terminal"></i>${project.title}</p>
             <span class="project">
               <div class="project-url">
                 <a href=${project.demo} target="_blank"><div class="project-icons"><i class="fas fa-laptop-code"></i></div>Live Demo</a>
