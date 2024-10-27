@@ -5,6 +5,9 @@ $font-stack: 'JetBrains', monospace;
 $primary-color: grey;
 $secondary-color: black;
 
+$grid-width: 100rem; // 1000px
+$gutter-vertical: 4rem; //40px
+$gutter-horizontal: 10rem; // 40px
 
 //Media Queries
 //Large Screen - 993 to 1170 screen size
@@ -46,6 +49,29 @@ body {
   -o-user-select: none;
   user-select: none;
 }
+
+// N A V B A R
+.navbar {
+  max-width: $grid-width;
+  margin: 0 auto;
+  align-items: stretch;
+  justify-content: space-between;
+  display: flex; 
+  flex-wrap: wrap;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .sections {
+    @include sm-screen {
+      display: none;
+    } 
+    @include xs-screen {
+      display: none;
+    }
+  }
 
 // T y p o g r a p h y
 h1 {
@@ -105,58 +131,6 @@ hr {
   color: $primary-color;
 }
 
-// N A V B A R
-nav {
-  display: flex;
-  justify-content: right;
-  width: 100%;
-  z-index: 1;
-  top: 0; /* Stay on top */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  @include sm-screen {
-    display: none;
-  } 
-  @include xs-screen {
-    display: none;
-  }
-  ul {
-    list-style-type: none;
-    @include sm-screen {
-      padding: 2rem;
-    } 
-    @include xs-screen {
-      padding: 2rem;
-    }
-  }
-
-  li {
-    display: inline-block;
-    @include sm-screen {
-      display: block;
-    } 
-    @include xs-screen {
-    display: block;
-  }
-    
-  }
-
-  a {
-    text-decoration: none;
-    padding:  0 1rem;
-  }
-}
-
-.skill-icons, .project-icons {
-    font-size: 2rem;
-}
-
-.skill, .card, .project-url {
-  padding: 1rem;
-}
-
-$grid-width: 100rem; // 1000px
-$gutter-vertical: 4rem; //40px
-$gutter-horizontal: 10rem; // 40px
 
 .skills-container, .project-container, .project {
   max-width: $grid-width;
