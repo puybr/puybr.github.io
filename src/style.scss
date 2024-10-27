@@ -51,27 +51,18 @@ body {
 }
 
 // N A V B A R
-.navbar {
-  max-width: $grid-width;
-  margin: 0 auto;
-  align-items: stretch;
-  justify-content: space-between;
-  display: flex; 
-  flex-wrap: wrap;
-  }
+a {
+  text-decoration: none;
+}
 
-  a {
-    text-decoration: none;
+.sections {
+  @include sm-screen {
+    display: none;
+  } 
+  @include xs-screen {
+    display: none;
   }
-
-  .sections {
-    @include sm-screen {
-      display: none;
-    } 
-    @include xs-screen {
-      display: none;
-    }
-  }
+}
 
 // T y p o g r a p h y
 h1 {
@@ -143,7 +134,7 @@ hr {
   max-width: $grid-width;
   margin: 0 auto;
   align-items: stretch;
-  align-content: space-between;
+  justify-content: space-between;
   display: flex; 
   flex-wrap: wrap;
 }
