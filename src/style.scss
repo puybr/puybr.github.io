@@ -66,7 +66,7 @@ a {
 
 // T y p o g r a p h y
 h1 {
-  font-size: 10rem;
+  font-size: 8rem;
   margin: 0 auto;
   line-height: 1;
   font-weight: 600;
@@ -76,19 +76,19 @@ h1 {
   }
 
   @include md-screen {
-      font-size: 8rem;
+      font-size: 7rem;
   }
 
   @include sm-screen {
-      font-size: 8rem;
+      font-size: 7rem;
   }
 
   @include xs-screen {
-      font-size: 5rem;
+      font-size: 4rem;
   }
 }
 h2 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-family: 'Anton', sans-serif;
   -webkit-text-stroke: 0.1rem $primary-color;
   color: $secondary-color;
@@ -96,6 +96,21 @@ h2 {
   font-weight: 200;
   line-height: 1;
   margin: 0 auto;
+  @include lg-screen {
+    font-size: 4rem;
+  }
+
+  @include md-screen {
+      font-size: 4rem;
+  }
+
+  @include sm-screen {
+      font-size: 4rem;
+  }
+
+  @include xs-screen {
+      font-size: 3rem;
+  }
 }
 h3 {
   font-size: 1.5rem;
