@@ -112,6 +112,11 @@ h2 {
       font-size: 4rem;
   }
 }
+
+h2:hover {
+  -webkit-text-stroke: 0.1rem $secondary-color;
+  color: $primary-color;
+}
 h3 {
   font-size: 1.5rem;
   font-weight: 200;

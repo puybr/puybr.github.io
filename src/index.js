@@ -7,9 +7,8 @@ import './style.scss';
 
 // Typing effect with typed.js
 const typed = new Typed('.text-animation', {
-    strings: ['--version'],
-    typeSpeed: 100,
-    backSpeed: 100,
+    strings: ['Hi, my name is Chloe.^1000<br />`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`'],
+    // typeSpeed: 50,
     // loop: true,
   });
   
@@ -35,7 +34,7 @@ const projectContainer = document.querySelector('.project-container');
 myProjects.forEach((project) => {
   const p = `
           <div class="card">
-            <p><i class="fa fa-terminal"></i>${project.title}</p>
+            <p></i>${project.title}</p>
             <span class="project">
               <div class="project-url">
                 <a href=${project.demo} target="_blank"><div class="project-icons"><i class="fas fa-laptop-code"></i></div>Live Demo</a>
