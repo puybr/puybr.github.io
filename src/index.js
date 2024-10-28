@@ -1,3 +1,4 @@
+"use strict";
 import Typed from 'typed.js';
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
